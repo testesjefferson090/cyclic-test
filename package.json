@@ -1,0 +1,15 @@
+{
+  "name": "requests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@josejefferson/jj-stdlogs": "^0.1.0",
+    "axios": "^1.1.2",
+    "express": "^4.18.2",
+    "mongoose": "^6.6.5"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
