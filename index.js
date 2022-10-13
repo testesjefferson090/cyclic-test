@@ -1,7 +1,7 @@
 const axios = require('axios')
 const mongoose = require('mongoose')
 const express = require('express')
-process.env.STDLOGS_NAME = 'ADAPTABLE TEST'
+process.env.STDLOGS_NAME = 'RENDER TEST'
 const { config } = require('@josejefferson/jj-stdlogs')
 config.setMongoose(mongoose)
 
