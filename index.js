@@ -1,9 +1,11 @@
+process.on('uncaughtException', console.error)
 const axios = require('axios')
 const mongoose = require('mongoose')
 const express = require('express')
 process.env.STDLOGS_NAME = 'RENDER TEST'
 const { config } = require('@josejefferson/jj-stdlogs')
 config.setMongoose(mongoose)
+
 
 mongoose.connect(process.env.DB)
 
